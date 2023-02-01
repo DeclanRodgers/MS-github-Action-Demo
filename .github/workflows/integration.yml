@@ -28,7 +28,7 @@ jobs:
       - name: Test artifact download
         run: ls -R
       - name: Archive site content
-        uses: thedoctor0/zip-release@0.7.1
+        uses: thedoctor0/zip-release@master
         with:
           filename: site.zip
       - name: Create Github Release
